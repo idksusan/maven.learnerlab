@@ -14,15 +14,13 @@ public class TestPerson {
 
     @Test
     public void testConstructor(){
-
-        //TODO: switch expected and actual
-        assertEquals(person.getId(), id);
-        assertEquals(person.getName(), name);
+        assertEquals(id, person.getId());
+        assertEquals(name, person.getName());
     }
 
     @Test
     public void testSetName(){
-        assertEquals(person.getName(), name);
+        assertEquals(name, person.getName());
     }
 
 }
