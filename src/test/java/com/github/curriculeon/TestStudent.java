@@ -6,6 +6,8 @@ public class TestStudent {
     final long id = 38572749;
     final String name = "Sam";
 
+    private Student student = new Student(id, name);
+
     @Test
     public void testImplementation(){
 
